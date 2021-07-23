@@ -387,10 +387,8 @@ hr{
         justify-content: center;
     }
     .story{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
     }
     .courier{
         display: grid;
