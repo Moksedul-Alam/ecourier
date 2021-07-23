@@ -1,0 +1,305 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.delivary-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #635e5e;   
+}
+.delivary-text{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    margin: 30px;
+    padding: 30px;
+}
+.extra-color-text{
+    color: gold;
+}
+.delivary-image img{
+   width: 100%; 
+
+  box-shadow: 0px 10px 30px gray ;
+}
+
+/* all service to here start */
+.all-service h1{
+font-size: 40px;
+color: darkkhaki;
+margin-left: 100px;
+}
+.services{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+}
+
+.service{
+    height: 600px;
+    width: 400px;
+    border: 1px solid gray;
+    margin: 20px;
+}
+.photo-service{
+    height: 50%;
+    
+    
+}
+ .photo-service img{
+    width: 100%;
+}
+.photo-description{
+    height: 50%;
+    text-align: justify;
+    padding: 30px;
+}
+.photo-description h1{
+    font-size: 20px;
+}
+
+
+/* parcel details */
+
+.parcel-details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    
+}
+.parcel-quantity{
+    width: 300px;
+    text-align: center;
+    
+}
+.parcel-quantity h1{
+    font-size: 40px;
+    color:blueviolet;
+    
+}
+.parcel-quantity p{
+font-size: 15px;
+
+}
+
+
+/* all emotion */
+
+.all-emotion{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom:150px;
+   
+}
+.photo{
+    margin-left: 60px;
+    
+}
+.photo img{
+    
+   width: 100%;
+}
+.imotion-text-image{
+    font-size: 20px;
+    margin-right: 15px;
+    color: blueviolet;
+}
+.imotion-text-image h2{
+    font-family: 'Parisienne', cursive;
+}
+.quote-tool{
+margin-left: 30px;
+margin-right: 20px;
+}
+.quote-tool i{
+    font-size: 70px;
+    color: gold;
+}
+
+.quote-tool p{
+    text-align: justify;
+}
+.quote-tool .right-arrow i{
+    color: black;
+    font-size: 20px;
+}
+.quote-tool a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* why ecourier */
+.why-ecourier h1{
+    font-size: 40px;
+    margin-left: 80px;
+    color: fuchsia;
+}
+.solutions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    
+}
+.solution{
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.solution .solution-icon i{
+    font-size: 60px;
+    margin-top: 20px;
+    color: green;
+}
+.solution .solution-description{
+    text-align: justify;
+    padding-left: 15px;
+}
+.solution .solution-description h3{
+    font-size: 25px;
+
+}
+
+
+
+/* all story */
+.story{
+    display: flex;
+    justify-content: center;
+}
+.story-details{
+    text-align: justify;
+    padding: 0 80px;
+    margin-right: 50px;
+    
+}
+.story-details h1{
+    font-size: 40px;
+   
+}
+.story-details p a{
+    text-decoration: none;
+}
+.story-photo{
+    width: 50%;
+    margin: 50px;
+}
+
+
+/* ecourier client */
+.ecourier-client h1{
+    font-size: 40px;
+    color:burlywood;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.courier{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+     align-content: center;
+     align-items: center;
+     margin-left:80px;
+}
+.courier img{
+   width: 100px;
+   padding: 20px;
+}
+
+/* ecourier blog */
+.ecourier-blog h1{
+    font-size: 40px;
+    margin-left: 80px;
+    color: khaki;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     align-content: center;
+     align-items: center;
+     margin-left: 80px;
+     margin-top: 80px;
+
+}
+.blog{
+    width: 400px;
+    
+}
+
+.blog .blog-photo img{
+    width: 100%;
+    height: 450px;
+    
+}
+.blog .blog-description{
+    text-align: center;
+}
+.blog .blog-description h3{
+    color: blueviolet;
+}
+.view-all-blog a{
+    text-decoration: none;  
+}
+.view-all-blog{
+  text-align: center;
+  margin-top:50px;
+  font-size: 20px;
+}
+
+
+/* footer start here */
+footer{
+    background-color: gray;
+   
+}
+.ecourier-footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 150px;
+}
+.footer-left{
+padding: 20px;
+width: 40%;
+
+}
+.footer-left .footer-element{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.footer-left-header h2{
+    color: white;
+}
+.footer-element a{
+    text-decoration: none;
+    color:blanchedalmond;
+    display:block;
+    padding-bottom: 10px;
+}
+
+
+.footer-right{
+  padding: 20px;
+    width: 60%;
+}
+
+.footer-right .footer-element{
+    display: grid;
+    -ms-grid-column-align: 20px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.footer-right-header h2{
+    color: white;
+}
