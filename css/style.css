@@ -388,8 +388,15 @@ hr{
     }
     .story{
         display: grid;
+        justify-items: center;
        grid-template-columns: repeat(1,1fr);
+       margin-left:300px;
     }
+    .story-photo{
+        width:100%;
+       
+    }
+
     .courier{
         display: grid;
         grid-template-columns: repeat(2,1fr);
