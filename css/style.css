@@ -324,3 +324,27 @@ width: 40%;
 .footer-right-header h2{
     color: white;
 }
+
+.footer-contact{
+    display: flex;
+    justify-content: center; 
+    color: white;
+}
+.contact-footer-phone .footer-email{
+    margin-left: 20px;
+    color: wheat;
+    
+}
+
+ .footer-social-icon i{
+    font-size: 50px;
+    margin-left: 100px;
+    
+}
+hr{
+    width: 1200px;
+}
+.copy-right{
+    text-align: center;
+    padding: 50px 1px;
+}
