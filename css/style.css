@@ -31,6 +31,7 @@ font-size: 40px;
 color: darkkhaki;
 margin-left: 100px;
 }
+
 .services{
     display:flex;
     justify-content: center;
@@ -43,9 +44,28 @@ margin-left: 100px;
 .service{
     height: 600px;
     width: 400px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    box-shadow: 10px 10px 30px gray;
     margin: 20px;
 }
+#service-1{
+    border-radius: 50px;
+}
+#service-2{
+   border-radius: 50px;
+}
+#service-3{
+    border-radius: 50px;
+ }
+ #service-4{
+    border-radius: 50px;
+ }
+ #service-5{
+    border-radius: 50px;
+ }
+ #service-6{
+    border-radius: 50px;
+ }
 .photo-service{
     height: 50%;
     
@@ -59,8 +79,9 @@ margin-left: 100px;
     text-align: justify;
     padding: 30px;
 }
-.photo-description h1{
-    font-size: 20px;
+.photo-description h2{
+  font-size: 20px;
+    
 }
 
 
